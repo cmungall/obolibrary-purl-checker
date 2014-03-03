@@ -3,7 +3,7 @@ OBO = http://purl.obolibrary.org/obo
 ONTIDS = obi pato go chebi
 ONTIRIS = $(patsubst %,%.owl,$(ONTIDS))
 CLASSES = OBI_0000697 PATO_0000047 GO_0000047 CHEBI_23367
-ALL = $(ONTIDS) $(ONTIRIS) ($CLASSES)
+ALL = $(ONTIDS) $(ONTIRIS) $(CLASSES)
 
 all: test-redirects
 
